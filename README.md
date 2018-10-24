@@ -1,18 +1,18 @@
 
-# ETL loader for Appsflyer data. \
+# ETL loader for Appsflyer data. 
 
 
 
 
 ## About
-Data loading into Bigqeury database.
+Appsflyer data loader into Bigqeury database.
 
 ## How to set up the development environment:
 
 
 Firstly need to create table at Bigquery for logging details about load data
 
-Tablename: import_appsflyer_log
+Table name: import_appsflyer_log
 
 
 id	INTEGER		
@@ -34,6 +34,9 @@ appsflyer_loader() {
     --tables partners_by_date_report,geo_by_date_report,geo_report,partners_report,installs_report,uninstall_events_report \
     --oauth_file YOUR_GOOGLE_APPLICATION_CREDENTIALS_FILE
     
+count days for retrospective date must be provided at config.json
+additional keys for appsflyer, bigqeury need to provide via config.json
+also need to provide YOUR_GOOGLE_APPLICATION_CREDENTIALS_FILE for access to Bigqiuery 
     
     
     
