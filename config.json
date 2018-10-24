@@ -1,0 +1,8 @@
+{
+    "appsflyer_api_token": "",
+    "appsflyer_app_id": "",
+    "bigquery_dataset_id": "",
+    "bigquery_project_id": "",
+    "tables": ["partners_by_date_report", "geo_by_date_report", "geo_report", "partners_report", "installs_report"],
+    "min_days_period": 10
+}
